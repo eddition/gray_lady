@@ -13,4 +13,8 @@ class Scraper
     end
   end
 
+  def get_images
+
+  end
+
 end
