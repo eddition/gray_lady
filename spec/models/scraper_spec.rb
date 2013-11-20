@@ -22,10 +22,5 @@ describe "Scraper" do
       expect(@scraper.get_href.class).to eq(Array)
     end
 
-    it "returns an array of links" do
-      something = @scraper.get_href.last
-      binding.pry
-
-    end
   end
 end
